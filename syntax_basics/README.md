@@ -55,6 +55,8 @@
     * float64(), int(), [strtocov library](https://golang.org/pkg/strconv/#FormatFloat)
 * Go basic commands
   * `go build` - converts source code to binary files
+    * can run with optionl args
+      * `./hello.go --flag value`
   * `go run` - Compiles and runs a program, without saving an executable file.
   * `go fmt` - Formates source files using Go standard formatting
   * `go version` - current go version
