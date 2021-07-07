@@ -22,6 +22,4 @@
   * identifies a package that you can use to import
     * example: math/rand
 * **Loops**
-  * consists of intialization statement, condition expression, and post statement that runs after each itteration
-  * `break` - breaks out of a loop
-* 
+  * consists of intialization statement, condition expression, and post statement that runs after each iteration
