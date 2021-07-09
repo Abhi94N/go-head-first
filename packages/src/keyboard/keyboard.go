@@ -1,35 +1,16 @@
-package main
+// Package keyboard reads user input from the keyboard
+package keyboard
 
 import (
 	"bufio"
-	"fmt"
-	"log"
 	"os"
 	"strconv"
 	"strings"
 )
 
-func main() {
-	fmt.Print("Enter a grade: ")
-	grade, err := getFloat()
-	if err != nil {
-		log.Fatal(err)
-	}
-	grade_status := status(grade)
-	fmt.Println(grade)
-	fmt.Println("A grade of", grade, "is", grade_status)
-
-	fmt.Print("Enter a temperature in Fahrenheit: ")
-	fahrenheit, err := getFloat()
-	if err != nil {
-		log.Fatal(err)
-	}
-	celsius := (fahrenheit - 32) * 5 / 9
-	fmt.Printf("%0.2f degrees Fahrenheit\n", fahrenheit)
-	fmt.Printf("%0.2f degrees Celsius\n", celsius)
-}
-
-func getFloat() (float64, error) {
+// GetFloat reads a floating-point number from the keyboard.
+// It returns the number read and any error encountered
+func GetFloat() (float64, error) {
 
 	// Set up a buffered reader that gets test from key board
 	reader := bufio.NewReader(os.Stdin)
@@ -50,14 +31,4 @@ func getFloat() (float64, error) {
 		return 0, err
 	}
 	return number, nil
-}
-
-func status(grade float64) string {
-	if grade == 100 {
-		return "Perfect"
-	} else if grade >= 60 {
-		return "passing"
-	} else {
-		return "failing"
-	}
 }
