@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"log"
 	"time"
-
-	"github.com/Abhi94N/datafile"
 )
 
 func main() {
