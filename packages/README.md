@@ -25,6 +25,7 @@
 * **Important Commands**
   * `go build file` - converts go file to exc
   * `go install {directory with main}` - converts into executable
+    * NOTE: must be called main.go for file to be a executable
   * `go get github.com/Abhi94N/greetings {Some optional function or const}` - installs package from git 
   * `go doc {package}` - shows details of package\
   * `go doc -http=:6060` - shows documentation locally with third party packages you crated
