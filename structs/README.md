@@ -64,7 +64,7 @@
     //can do operation with its literal type
     fmt.Println(Liters(1.2) + 3.4)
     ```
-* Defining Methods - different from a function as methods are called on recievers
+* **Defining Methods** - different from a function as methods are called on recievers
   * Similar to class methods vs function methods 
   * **reciever parameter** - parameter before the function name and function parameters
     * `func (m MyType) sayHi() `
