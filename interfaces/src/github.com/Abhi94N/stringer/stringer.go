@@ -13,7 +13,7 @@ func (c CoffeePot) String() string {
 }
 
 //you can [ass any stringer function to fmt.print, println, printf
-
+//below an interface satisfies multiple types
 //set type to set up interface with
 type Gallons float64
 
