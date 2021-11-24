@@ -24,8 +24,8 @@ func main() {
 	mixtape := []string{"Bad Blood", "Oh my good who is she", "Some other Taylor Swift song"}
 	playList(player, mixtape)
 	gadget.TryOut(player)
-	player = gadget.TapeRecorder{}
 
+	player = gadget.TapeRecorder{}
 	playList(player, mixtape)
 	gadget.TryOut(player.(gadget.TapeRecorder))
 

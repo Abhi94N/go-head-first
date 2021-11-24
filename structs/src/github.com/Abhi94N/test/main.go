@@ -57,8 +57,8 @@ func main() {
 	subscriber1.Rate = 500.0
 	subscriber1.Active = true
 	fmt.Println("Name:", subscriber1.Name)
-	fmt.Println("Name:", subscriber1.Rate)
-	fmt.Println("Name:", subscriber1.Active)
+	fmt.Println("Rate:", subscriber1.Rate)
+	fmt.Println("Active:", subscriber1.Active)
 
 	var subscriber2 magazine.Subscriber
 	subscriber2.Name = "Aman Singh"
@@ -101,6 +101,7 @@ func main() {
 	var studentPointer *student = &sarah
 	fmt.Println((*studentPointer).name)
 	studentPointer.grade = 97
+	fmt.Println(&sarah)
 	fmt.Println(studentPointer)
 	fmt.Println(*studentPointer)
 

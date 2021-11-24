@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"time"
+
+	"github.com/Abhi94N/datafile"
 )
 
 func main() {
@@ -36,15 +38,15 @@ func main() {
 	var primes_2 [5]int
 	primes_2[0] = 0
 
-	fmt.Println(primes[0])
-	fmt.Println(primes[2])
-	fmt.Println(primes[4])
+	fmt.Println(primes_2[0])
+	fmt.Println(primes_2[2])
+	fmt.Println(primes_2[4])
 
 	var notes_2 [7]string
 	notes_2[0] = "do"
-	fmt.Println(notes[6])
-	fmt.Println(notes[3])
-	fmt.Println(notes[0])
+	fmt.Println(notes_2[6])
+	fmt.Println(notes_2[3])
+	fmt.Println(notes_2[0])
 
 	var counters [3]int
 	counters[0]++
@@ -107,7 +109,7 @@ func main() {
 		}
 	}
 
-	numbers_3, err := datafile.GetFloats("data.txt")
+	numbers_3, err := datafile.GetFloats("/root/projects/personal/go-head-first/Arrays/bin/data.txt")
 	fmt.Println(numbers_3)
 	if err != nil {
 		log.Fatal(err)

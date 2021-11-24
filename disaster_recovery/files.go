@@ -55,12 +55,12 @@ func reportPanic() {
 	err, ok := p.(error)
 	if ok {
 		fmt.Println(err)
-	}
-	//since the panic is not an error, print error
-	else {
+	} else {
 		panic(p)
 	}
 }
+
+//since the panic is not an error, print error
 
 func main() {
 	defer reportPanic()

@@ -6,6 +6,7 @@ import (
 
 type Landmark struct {
 	name string
+	//can call struct in same directory/package
 	Coordinates
 }
 

@@ -3,6 +3,7 @@
     * **bin** - holds compiled executable programs
     * **pkg** - holds compiled binary package files
         * [what-is-the-use-of-pkg-directory-in-go](https://stackoverflow.com/questions/47369621/what-is-the-use-of-pkg-directory-in-go)
+        * Install links to packages in github repo to use instead of storing them in src
     * **src** - holds src code
       * has sub directories for each package
         * each package has one or more source codes
@@ -24,8 +25,8 @@
     * `package/subpackage`
 * **Important Commands**
   * `go build file` - converts go file to exc
-  * `go install {directory with main}` - converts into executable
-    * NOTE: must be called main.go for file to be a executable
+  * `go install {directory with main file}` - converts into executable and moves to bin folder
+    * NOTE: must be called main.go for file to be a executable and just run `go install` in whichver directory has main.go
   * `go get github.com/Abhi94N/greetings {Some optional function or const}` - installs package from git 
   * `go doc {package}` - shows details of package\
   * `go doc -http=:6060` - shows documentation locally with third party packages you crated

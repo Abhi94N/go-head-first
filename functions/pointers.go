@@ -16,8 +16,8 @@ func main() {
 	fmt.Println(&myInt)
 	fmt.Println(reflect.TypeOf(&myInt))
 	fmt.Println(reflect.TypeOf(&myIntPointer), "Pointer to a Pointer")
-	fmt.Println(&myIntPointer, "Pointer address")
-	fmt.Println(myIntPointer, "Pointer address")
+	fmt.Println(&myIntPointer, "Pointer address of pointer")
+	fmt.Println(myIntPointer, "Pointer address of value")
 	fmt.Println(*myIntPointer, "Pointer value")
 	//assign a new value
 	*myIntPointer = 8
@@ -29,8 +29,8 @@ func main() {
 	fmt.Println(reflect.TypeOf(&myFloat))
 	fmt.Println(&myFloat)
 	fmt.Println(reflect.TypeOf(&myFloatPointer), "Pointer to a Pointer")
-	fmt.Println(&myFloatPointer, "Pointer address")
-	fmt.Println(myFloatPointer, "Pointer address")
+	fmt.Println(&myFloatPointer, "Pointer address of pointer")
+	fmt.Println(myFloatPointer, "Pointer address of value")
 	fmt.Println(*myFloatPointer, "Pointer value")
 
 	myBool := true
@@ -38,8 +38,8 @@ func main() {
 	fmt.Println(reflect.TypeOf(&myBool))
 	fmt.Println(&myBool)
 	fmt.Println(reflect.TypeOf(&myBoolPointer), "Pointer to a Pointer")
-	fmt.Println(&myBoolPointer, "Pointer address")
-	fmt.Println(myBoolPointer, "Pointer address")
+	fmt.Println(&myBoolPointer, "Pointer address of pointer")
+	fmt.Println(myBoolPointer, "Pointer address of value")
 	fmt.Println(*myBoolPointer, "Pointer value")
 
 	myString := "test"
@@ -47,8 +47,8 @@ func main() {
 	fmt.Println(reflect.TypeOf(&myString))
 	fmt.Println(&myString)
 	fmt.Println(reflect.TypeOf(&myStringPointer), "Pointer to a Pointer")
-	fmt.Println(&myStringPointer, "Pointer address")
-	fmt.Println(myStringPointer, "Pointer address")
+	fmt.Println(&myStringPointer, "Pointer address of pointer")
+	fmt.Println(myStringPointer, "Pointer address of value")
 	fmt.Println(*myStringPointer, "Pointer value")
 
 	var myFloatPointers *float64 = createPointer()

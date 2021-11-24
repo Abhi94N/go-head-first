@@ -3,7 +3,7 @@
 * **Setter methods** - methods for structs to set properties of struct
   * usually Named `SetYear`
   * Setter methods need pointer recievers to update instance
-  * use `error` package to dea with error handling in setter function and return the error if it exists
+  * use `error` package to deal with error handling in setter function and return the error if it exists
 * **Getter methods** - methods for structs to get properties of a struct
   * getters allow for returning of unexported for a year
     * by convention getters are set to the name of the value it returns: `Year()`

@@ -8,7 +8,7 @@ import (
 
 func awardPrice() {
 	doorNumber := rand.Intn(3) + 1
-	print(doorNumber)
+	print(doorNumber, "\n")
 	if doorNumber == 1 {
 		fmt.Println("You win a cruise!")
 	} else if doorNumber == 2 {

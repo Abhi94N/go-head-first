@@ -60,7 +60,7 @@ func main() {
 		fmt.Println("Square Root:", squareRootValue)
 	}
 
-	quotient, err := divide(9.2, 1)
+	quotient, err := divide(9.2, 2)
 	if err != nil {
 		log.Fatal(err)
 	} else {
