@@ -50,5 +50,6 @@ func main() {
 	fmt.Println(bolt)
 	doublePack(bolt)
 	fmt.Println(*bolt)
+	fmt.Println(&bolt)
 
 }

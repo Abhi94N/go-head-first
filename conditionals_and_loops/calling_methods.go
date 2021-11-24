@@ -35,8 +35,4 @@ func main() {
 		y--
 	}
 
-	for z := 5; z > 0; z-- {
-		fmt.Println(z)
-		z--
-	}
 }

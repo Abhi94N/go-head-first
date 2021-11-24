@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("hello, new line %s\n", "Abhilash")
 	fmt.Printf("hello, tab %s\t", "Abhilash\n")
 	fmt.Printf("hello, vertical tab %s\v", "Abhilash")
-	fmt.Println("Quotes \"\"")
+	fmt.Println("\\Quotes \"\"")
 	fmt.Println("A Line", "my guy")
 	fmt.Println("Another line\n")
 	fmt.Println("Carriage Return\f", "test")

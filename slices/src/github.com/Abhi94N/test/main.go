@@ -19,7 +19,7 @@ func main() {
 	}
 
 	//using slice function in GetFloats
-	numbers, err := slice.GetFloats("data.txt")
+	numbers, err := slice.GetFloats("/root/projects/personal/go-head-first/slices/bin/data.txt")
 	fmt.Println(numbers)
 	if err != nil {
 		log.Fatal(err)

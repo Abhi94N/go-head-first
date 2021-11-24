@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	lines, err := datafile.GetStrings("votes.txt")
+	lines, err := datafile.GetStrings("/root/projects/personal/go-head-first/maps/bin/votes.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -20,6 +20,7 @@ func main() {
 
 	var ok bool
 	var rank int
+	//can allow negative values
 	rank, ok = ranks["bronze"]
 
 	fmt.Printf("rank: %d, ok: %v\n", rank, ok)

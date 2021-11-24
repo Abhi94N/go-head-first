@@ -8,7 +8,7 @@
     * strings
 * **Import** - import packages needed before writing code
   * Packages can be imported indvidually with import clause or in a list inside of ()
-* **Function** - group of oen or more lines thant you can call (run) from other places in your program
+* **Function** - group of one or more lines thant you can call (run) from other places in your program
   * * How to call a function
   * `package.function_name()`
     * pass in arguments in function requires
@@ -21,10 +21,10 @@
   * **Strings** with Strings library
     |Escape Sequence  |Value  |
     |---------|---------|
-    |`\n`    |         |
-    |`\t`    |         |
-    |`\"`     |         |
-    |`\\`     |         |
+    |`\n`    |     new line    |
+    |`\t`    |      new tab   |
+    |`\"`     |   add dobule quote      |
+    |`\\`     |      single backslash   |
     * String literals are written in double quotes
   * **Runes** - single character
     * Rune literals are written in single quotes

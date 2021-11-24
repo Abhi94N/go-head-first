@@ -31,7 +31,7 @@ func Socialize() error {
 	defer fmt.Println("Goodbye")
 	fmt.Println("Hello!")
 
-	return fmt.Errorf("I don't want to talk.")
+	//return fmt.Errorf("I don't want to talk.")
 	fmt.Println("Noice weather eh?")
 	return nil
 }
